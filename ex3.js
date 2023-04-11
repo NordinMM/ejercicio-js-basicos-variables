@@ -15,10 +15,14 @@ let presentacion = "";
  * 
  */
 
-console.log("Pregunta 1:", presentacion);
+console.log( presentacion);
 
 /**
  * Pregunta 2: Cambia el valor de las variables adecuadamente para que, en vez de "Me llamo Mad Max", escribe "Me llamo {tu nombre} {tu apellido}"
  */
+let nombre1 = "Nordin";
+let apellido1 = "Mhamed";
 
-console.log("Pregunta 2:", presentacion);
+let presentacion1 = "Me llamo " + nombre1 + " " + apellido1;
+
+console.log( presentacion1);
